@@ -6,7 +6,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.printLn("It's me, Anton!")
+        System.out.println("It's me, Anton!")
         RandomNameGenerator rnd = new RandomNameGenerator(2);
         for (int i=0;i<15;i=i+1) {
             String name = rnd.next();
